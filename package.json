@@ -1,0 +1,38 @@
+{
+  "name": "alain-twitterbot",
+  "version": "0.1.0",
+  "description": "tweeting impeccable product names since 2016",
+  "main": "server.js",
+  "scripts": {
+    "forever": "forever start server.js",
+    "halt": "forever stop server.js",
+    "test": "standard",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergile/alain-twitterbot.git"
+  },
+  "keywords": [
+    "alain",
+    "twitter",
+    "bot",
+    "twitterbot",
+    "yusss!"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergile/alain-twitterbot/issues"
+  },
+  "homepage": "https://github.com/sergile/alain-twitterbot#readme",
+  "dependencies": {
+    "alain": "^0.4.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "forever": "^0.15.1",
+    "standard": "^7.0.1",
+    "standard-version": "^2.2.1"
+  }
+}
