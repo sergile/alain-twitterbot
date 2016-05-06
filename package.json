@@ -1,6 +1,6 @@
 {
   "name": "alain-twitterbot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "tweeting impeccable product names since 2016",
   "main": "server.js",
   "scripts": {
